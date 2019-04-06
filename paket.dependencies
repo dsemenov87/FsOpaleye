@@ -1,0 +1,12 @@
+source https://dotnet.myget.org/F/dotnet-core/api/v3/index.json
+source https://dotnet.myget.org/F/cli-deps/api/v3/index.json
+source https://www.myget.org/F/aspnetcidev/api/v3/index.json
+source https://api.nuget.org/v3/index.json
+framework >= net461
+
+nuget FSharp.Core 3.0.2
+nuget FSharpx.Extras
+nuget FSharpx.Collections 1.16.0
+nuget SimpleBase 1.2.0
+nuget PPrint
+nuget FSharpPlus 1.0.0-CI00089
